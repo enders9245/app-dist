@@ -22,8 +22,8 @@ public class PedidoServiceImpl implements PedidoService {
     private PedidoRepository pedidoRepository;
     @Autowired
     private ClienteFeign clienteFeign;
-    @Autowired
-    private CatalogoFeign catalogoFeign;
+    /*@Autowired
+    private CatalogoFeign catalogoFeign;*/
     @Autowired
     private ProductoFeign productoFeign;
 
